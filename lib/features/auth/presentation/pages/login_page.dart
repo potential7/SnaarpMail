@@ -55,12 +55,13 @@ class _LoginPageState extends State<LoginPage> {
                   const SizedBox(height: 64),
                   // 2. Heading
                   const Text(
-                    'Login to Snaarp',
+                    'Login to SnaarpMail',
                     style: TextStyle(
                       fontSize: 32,
                       fontWeight: FontWeight.w500,
                       fontFamily: 'Georgia',
                       color: Color(0xFF333333),
+                      letterSpacing: -1.2,
                     ),
                   ),
                   const SizedBox(height: 40),
@@ -159,8 +160,7 @@ class _LoginPageState extends State<LoginPage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          const Icon(Icons.g_mobiledata, color: Colors.blue, size: 32),
-                          const SizedBox(width: 12),
+                          const Icon(Icons.g_mobiledata_outlined, color: Colors.red, size: 32),
                           const Text(
                             'Continue with google',
                             style: TextStyle(
