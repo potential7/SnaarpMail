@@ -1,0 +1,13 @@
+Analyzing snaarp_mail...                                        
+
+   info • 'useMaterial3' is deprecated and shouldn't be used. Use a ThemeData constructor (.from, .light, or .dark) instead. These constructors all have a useMaterial3 argument, and they set appropriate default values based on its value. See the useMaterial3 API documentation for full details. This feature was deprecated after v3.13.0-0.2.pre • lib/core/theme/app_theme.dart:14:5 • deprecated_member_use
+   info • Constructors in '@immutable' classes should be declared as 'const' • lib/features/mail/data/models/email_model.dart:4:3 • prefer_const_constructors_in_immutables
+  error • The method 'deleteEmail' isn't defined for the type 'MailRepository' • lib/features/mail/domain/usecases/delete_email.dart:12:29 • undefined_method
+   info • Unnecessary use of string interpolation • lib/features/mail/presentation/pages/compose_page.dart:180:15 • unnecessary_string_interpolations
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/mail/presentation/pages/email_detail_page.dart:92:60 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/mail/presentation/pages/mail_page.dart:115:57 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/mail/presentation/widgets/category_chip.dart:28:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/mail/presentation/widgets/email_list_tile.dart:24:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/mail/presentation/widgets/mail_drawer.dart:98:48 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/mail/presentation/widgets/mail_search_bar.dart:46:43 • deprecated_member_use
+

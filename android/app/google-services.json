@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302463786687",
+    "project_id": "snaarpmail",
+    "storage_bucket": "snaarpmail.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302463786687:android:93350a7891a54e9ffe300a",
+        "android_client_info": {
+          "package_name": "com.example.snaarp_mail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnVz2re4V5UGJ5kwI0amUPtZozGrm2ViQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
